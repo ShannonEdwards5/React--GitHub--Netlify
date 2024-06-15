@@ -14,7 +14,10 @@ export default function SocialLinks() {
         Github {}
       </a>
       and website hosted on {}
-      <a href="https://luminous-manatee-008837.netlify.app/" target="blank">
+      <a
+        href="https://app.netlify.com/sites/fabulous-narwhal-a3e153/overview"
+        target="blank"
+      >
         Netlify
       </a>
     </footer>
