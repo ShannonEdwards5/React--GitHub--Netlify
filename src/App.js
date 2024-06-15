@@ -1,13 +1,21 @@
-import React from "react";
-import Weather from "./Weather";
 import "./App.css";
+import SearchEngine from "./SearchEngine.js";
+import SocialLinks from "./SocialLinks.js";
 
-export default function App() {
+function App() {
   return (
     <div className="App">
-      <div className="container">
-        <Weather defaultCity="San Francisco" />
-      </div>
+      <header className="App-header">
+        <h1>Weather Search Engine</h1>
+      </header>
+      <main>
+        <SearchEngine />
+      </main>
+      <footer>
+        <SocialLinks />
+      </footer>
     </div>
   );
 }
+
+export default App;
